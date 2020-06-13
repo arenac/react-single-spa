@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "webpack-dev-server --https",
+    "start": "webpack-dev-server --port 8500",
+    "start:s": "webpack-dev-server --https --port 8500",
     "build": "webpack --mode=production",
     "analyze": "webpack --mode=production --env.analyze=true",
     "lint": "eslint src --ext js",
@@ -47,7 +48,7 @@
     "webpack-merge": "^4.2.2"
   },
   "dependencies": {
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
   }
 }
